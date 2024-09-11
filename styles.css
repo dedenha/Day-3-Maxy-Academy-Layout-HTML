@@ -1,0 +1,83 @@
+/* Gaya dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header: Gaya untuk bagian atas halaman */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo restoran di header */
+header .logo img {
+    height: 50px; /* Mengatur tinggi logo */
+}
+
+/* Navigasi di header */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+/* Gaya untuk link di menu navigasi */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Bagian utama yang terdiri dari section dan aside */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Section untuk sambutan restoran */
+main section {
+    flex: 2;
+}
+
+/* Aside untuk menampilkan spesial hari ini */
+main aside {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut di kotak aside */
+}
+
+/* Footer: Gaya untuk bagian bawah halaman */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navigasi di footer */
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Link di navigasi footer */
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
